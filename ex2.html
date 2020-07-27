@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="icon/icofont/icofont.min.css">
+    <title>Exercise 2</title>
+    <style>
+        #heading{
+            margin-bottom: 100px;
+        }
+        #logo{
+            width: 90px;
+            height: 83px;
+            float:left;
+        }
+        #logout{
+            display: inline;
+            color: blue;
+            text-decoration:none!important;
+            font-weight: 600;
+            padding-top: 10px;
+            float: right;
+        }
+        #profile-pic{
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+            position: absolute;
+            left: 30%;
+        }
+        #profile-section{
+            display: grid;
+	        grid-template-columns: auto auto;
+            margin-bottom: 100px;
+        }
+        button{
+            background-color: white;
+            color: black;
+            border: 2px solid grey;
+            padding: 10px 22px;
+            position: absolute;
+            right: 37%;
+            margin-top: 10px;
+            
+        }
+        #profile-text{
+            display:grid;
+            grid-template-columns: auto auto;
+            margin-left: 100px;
+        }
+        #ptf{
+            display:grid;
+            grid-template-columns: auto auto auto;
+        }
+        #photo-grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 5px 0px;
+        }
+        #photo{
+            width: 250px;
+            height: 200px;
+            margin-left: 105px;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <img src="insta_logo.jpg" id="logo" alt="this is logo">
+        <a href="#" id="logout">Log Out</a>
+
+    <br>
+    </div>
+    
+        <div id="profile-section">
+            <div>
+                <img src="taytay.jpg"  id="profile-pic" alt="profile">
+            </div>
+            <div id="profile-text">
+                <div>
+                    <h4>Taylor Swfit</h3> 
+                    <p>Check out my new album <i class="icofont-instagram"></i><i class="icofont-instagram"></i><i class="icofont-instagram"></i></p>
+                    <div id="ptf">
+                        <div>
+                        <b>953 posts</b>
+                        </div>
+                        <div>
+                            <b>1078 followers</b>
+                        </div>
+                        <div>
+                            <b>145 followings</b>   
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button>Edit Profile</button>
+                </div>
+            </div>
+          
+         </div>
+         <div id="photo-grid">
+            <div><img src="taytay.jpg" id="photo" alt=""></div>
+            <div><img src="taytay.jpg" id="photo" alt=""></div>
+            <div><img src="taytay.jpg" id="photo" alt=""></div>
+            <div><img src="taytay.jpg" id="photo" alt=""></div>
+            <div><img src="taytay.jpg" id="photo" alt=""></div>
+            <div><img src="taytay.jpg" id="photo" alt=""></div>
+         </div>
+        
+            
+            
+       
+        
+
+    </section>
+    
+    
+
+</body>
+</html>

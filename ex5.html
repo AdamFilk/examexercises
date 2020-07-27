@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+    function calculate() {
+        var win = document.getElementById('win').value;
+        var loss= document.getElementById('loss').value;
+        var draw= document.getElementById('draw').value;
+        
+        var c_win=3*win;
+        
+        var c_loss=0*loss;
+        var c_draw=1*draw;
+        var result= c_win+c_draw+c_loss;
+        console.log(result);
+        document.getElementById('ttl_point').value=result;
+        
+    
+    }
+    </script>
+</head>
+<body>
+    Wins:
+    <input type="number" id="win">
+    <br>
+    Loss:
+    <input type="number" id="loss">
+    <br>
+    Tie(Draw):
+    <input type="number" id="draw">
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    Result <input type="number" name="" id="ttl_point" readonly>
+</body> 
+</html>

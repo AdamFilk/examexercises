@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style>
+        section{
+            border: 4px solid black;
+            width: 700px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            border-spacing: 2px;
+            background-color:#d3d3d3;
+        
+         
+        }
+        th, td {
+        padding: 5px;
+        }
+        input[type="text"],input[type="password"]{
+            width:230px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 style="text-align: center">Form Example</h1>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>First Name*</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name*</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Password*</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password*</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Enter Your Hobbies*</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Traveling</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Notified by Email</td>
+                    <td><input type="checkbox" checked></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input name="gender" id="male" type="radio" checked> <label for="male">Male</label> <br><input name="gender" id="female"  type="radio"><label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td>Address <br> (<i>Please fill your addresss in: "no street,state,city</i>)</td>
+                    <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit Form"></td>
+                    <td><input type="reset" value="Clear Form"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    
+</body>
+</html>
